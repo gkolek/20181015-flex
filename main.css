@@ -1,0 +1,33 @@
+.div-title {
+    font-weight: bold;
+    padding-top: 12px
+}
+
+.color1 {
+    background-color: yellow;
+}
+
+.color2 {
+    background-color: greenyellow;
+}
+
+.color3 {
+    background-color: aqua;
+}
+
+.flex-container1 {
+    display: flex;
+    border: red 1px dotted;
+    width: 100%;
+    flex-direction: row;
+}
+
+.flex-container1 div {
+    border: black 1px solid;
+}
+
+.flex-container2 {
+    display: flex;
+    border: red 1px dotted;
+    flex-direction: row-reverse;
+}
