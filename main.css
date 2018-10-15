@@ -3,6 +3,9 @@
     padding-top: 12px
 }
 
+[class *="color"] {
+    width: 50px;
+}
 .color1 {
     background-color: yellow;
 }
@@ -15,19 +18,79 @@
     background-color: aqua;
 }
 
-.flex-container1 {
+[class *="flex-container"] {
     display: flex;
-    border: red 1px dotted;
-    width: 100%;
-    flex-direction: row;
+    border: magenta 1px solid;
 }
 
-.flex-container1 div {
+.flex-container11 {
+    flex-direction: row;
+}
+.flex-container11 div {
     border: black 1px solid;
 }
 
-.flex-container2 {
-    display: flex;
-    border: red 1px dotted;
+.flex-container12 {
     flex-direction: row-reverse;
 }
+.flex-container12 div {
+    border: black 1px solid;
+}
+
+.flex-container13 {
+    flex-direction: column;
+}
+.flex-container13 div {
+    border: black 1px solid;
+}
+
+.flex-container14 {
+    flex-direction: column-reverse;
+}
+.flex-container14 div {
+    border: black 1px solid;
+}
+
+.flex-container21 {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.flex-container21 div {
+    border: black 1px solid;
+}
+.flex-container22 {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-container22 div {
+    border: black 1px solid;
+}
+.flex-container23 {
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.flex-container23 div {
+    border: black 1px solid;
+}
+
+.flex-container31 {
+    flex-flow: row nowrap;
+}
+.flex-container31 div {
+    border: black 1px solid;
+}
+
+.flex-container32 {
+    flex-flow: row wrap;
+}
+.flex-container32 div {
+    border: black 1px solid;
+}
+
+.flex-container33 {
+    flex-flow: row wrap-reverse;
+}
+.flex-container33 div {
+    border: black 1px solid;
+}
+
