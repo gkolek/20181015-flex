@@ -4,7 +4,9 @@
 }
 
 [class *="color"] {
-    width: 50px;
+    width: 40px;
+    /* height: 24px; */
+    margin: 1px;
 }
 .color1 {
     background-color: yellow;
@@ -98,5 +100,119 @@
     justify-content: flex-start;
 }
 .flex-container41 div {
+    border: black 1px solid;
+}
+.flex-container42 {
+    justify-content: flex-end;
+}
+.flex-container42 div {
+    border: black 1px solid;
+}
+.flex-container43 {
+    justify-content: center;
+}
+.flex-container43 div {
+    border: black 1px solid;
+}
+.flex-container44 {
+    justify-content: space-around;
+}
+.flex-container44 div {
+    border: black 1px solid;
+}
+.flex-container45 {
+    justify-content: space-between;
+}
+.flex-container45 div {
+    border: black 1px solid;
+}
+
+.flex-container46 {
+    justify-content: space-evenly;
+}
+.flex-container46 div {
+    border: black 1px solid;
+}
+
+.flex-container51 {
+    align-items: stretch;
+    height: 100px;
+}
+.flex-container51 div {
+    border: black 1px solid;
+}
+
+.flex-container52 {
+    align-items: flex-start;
+    height: 100px;
+}
+.flex-container52 div {
+    border: black 1px solid;
+}
+
+.flex-container53 {
+    align-items: flex-end;
+    height: 100px;
+}
+.flex-container53 div {
+    border: black 1px solid;
+}
+
+.flex-container54 {
+    align-items: center;
+    height: 100px;
+}
+.flex-container54 div {
+    border: black 1px solid;
+}
+
+.flex-container55 {
+    align-items: baseline;
+    height: 100px;
+}
+.flex-container55 div {
+    border: black 1px solid;
+}
+
+.flex-container61 {
+    justify-content: space-evenly;
+}
+.flex-container61 div {
+    border: black 1px solid;
+}
+
+.flex-container62 {
+    justify-content: space-evenly;
+}
+.flex-container62 div {
+    border: black 1px solid;
+}
+
+.flex-container63 {
+    justify-content: space-evenly;
+}
+.flex-container63 div {
+    border: black 1px solid;
+}
+
+.flex-container64 {
+    justify-content: space-evenly;
+}
+.flex-container64 div {
+    border: black
+     1px solid;
+}
+
+.flex-container65 {
+    justify-content: space-evenly;
+}
+.flex-container65 div {
+    border: black 1px solid;
+}
+
+.flex-container66 {
+    justify-content: space-evenly;
+}
+.flex-container66 div {
     border: black 1px solid;
 }
