@@ -175,28 +175,36 @@
 }
 
 .flex-container61 {
-    justify-content: space-evenly;
+    align-content: stretch;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .flex-container61 div {
     border: black 1px solid;
 }
 
 .flex-container62 {
-    justify-content: space-evenly;
+    align-content: flex-start;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .flex-container62 div {
     border: black 1px solid;
 }
 
 .flex-container63 {
-    justify-content: space-evenly;
+    align-content: flex-end;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .flex-container63 div {
     border: black 1px solid;
 }
 
 .flex-container64 {
-    justify-content: space-evenly;
+    align-content: center;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .flex-container64 div {
     border: black
@@ -204,14 +212,18 @@
 }
 
 .flex-container65 {
-    justify-content: space-evenly;
+    align-content: space-around;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .flex-container65 div {
     border: black 1px solid;
 }
 
 .flex-container66 {
-    justify-content: space-evenly;
+    align-content: space-between;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .flex-container66 div {
     border: black 1px solid;
