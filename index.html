@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
 
 <head>
     <meta charset="utf-8" />
@@ -11,434 +11,510 @@
 </head>
 
 <body>
-    <div class="div-title">
-        Sześć właściwości, które można przypisać fleksowemu pojemnikowi (ang. flex container zakładając oczywiście, że
-        trybem wyświetlania ów pojemnika jest flex items)!!!
+    <div class="div-title-red">
+        Klasa (class) - przypisana kontenerowi (flex-container).
     </div>
-    <div class="div-title">
-        1.Właściwość flex-direction - określa KIERUNEK układania elementów flexowych (flex items)!!!
+    <div class="div-title-red">
+        Styl (style) - przypisany poszczególnym elementom (flex-item) wobec innych elementów wewnątrz tego samego
+        kontenera.
     </div>
-    <div class="div-title">
-        1.1. flex-direction: row
-    </div>
-    <div class="flex-container11">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+    <div>
+        <div class="div-title">
+            Class - sześć właściwości, które można przypisać fleksowemu pojemnikowi (ang. flex container zakładając oczywiście,
+            że trybem wyświetlania ów pojemnika jest flex items)!!!
+        </div>
+        <div class="div-title">
+            1.Właściwość flex-direction - określa KIERUNEK układania elementów flexowych (flex items)!!!
+        </div>
+        <div class="div-title">
+            1.1. flex-direction: row
+        </div>
+        <div class="flex-container11">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        1.2. flex-direction: row-reverse
-    </div>
-    <div class="flex-container12">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            1.2. flex-direction: row-reverse
+        </div>
+        <div class="flex-container12">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        1.3. flex-direction: column
-    </div>
-    <div class="flex-container13">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            1.3. flex-direction: column
+        </div>
+        <div class="flex-container13">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        1.4. flex-direction: column-reverse
-    </div>
-    <div class="flex-container14">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            1.4. flex-direction: column-reverse
+        </div>
+        <div class="flex-container14">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        2. Właściwość flex-wrap - określa, czy elementy fleksowe mają być zawijane (wrap), gdy nie ma miejsca w jednym
-        wierszu,
-        czy nie!!!
-    </div>
-    <div class="div-title">
-        2.1. flex-wrap: nowrap
-    </div>
-    <div class="flex-container21">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-    <div class="div-title">
-        2.2. flex-wrap: wrap
-    </div>
-    <div class="flex-container22">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-    <div class="div-title">
-        2.3. flex-wrap: wrap-reverse
-    </div>
-    <div class="flex-container23">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-    <div class="div-title">
-        3. Właściwość flex-flow to zbiorcza (skrótowa) właściwość dla dwóch właściwości — flex-direction oraz
-        flex-wrap, np.
-    </div>
-    <div class="div-title">
-        3.1 flex-flow: row nowrap
-    </div>
-    <div class="flex-container31">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-    <div class="div-title">
-        3.2. flex-flow: row-reverse wrap-reverse
-    </div>
-    <div class="flex-container32">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-    <div class="div-title">
-        3.3. flex-flow: row wrap-reverse
-    </div>
-    <div class="flex-container33">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-    <div>itd.</div>
+        <div class="div-title">
+            2. Właściwość flex-wrap - określa, czy elementy fleksowe mają być zawijane (wrap), gdy nie ma miejsca w
+            jednym
+            wierszu,
+            czy nie!!!
+        </div>
+        <div class="div-title">
+            2.1. flex-wrap: nowrap
+        </div>
+        <div class="flex-container21">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+        <div class="div-title">
+            2.2. flex-wrap: wrap
+        </div>
+        <div class="flex-container22">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+        <div class="div-title">
+            2.3. flex-wrap: wrap-reverse
+        </div>
+        <div class="flex-container23">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+        <div class="div-title">
+            3. Właściwość flex-flow to zbiorcza (skrótowa) właściwość dla dwóch właściwości — flex-direction oraz
+            flex-wrap, np.
+        </div>
+        <div class="div-title">
+            3.1 flex-flow: row nowrap
+        </div>
+        <div class="flex-container31">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+        <div class="div-title">
+            3.2. flex-flow: row-reverse wrap-reverse
+        </div>
+        <div class="flex-container32">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+        <div class="div-title">
+            3.3. flex-flow: row wrap-reverse
+        </div>
+        <div class="flex-container33">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+        <div>itd.</div>
 
-    <div class="div-title">
-        4. Właściwość justify-content służy do wyrównywania fleksowych elementów (ang. flex items ) w poziomie, gdy
-        elementy nie zajmują całej dostępnej przestrzeni na osi poziomej (ang. on the main-axis ), np.
-    </div>
-    <div class="div-title">
-        4.1 justify-content: flex-start;
-    </div>
-    <div class="flex-container41">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            4. Właściwość justify-content służy do wyrównywania fleksowych elementów (ang. flex items ) w poziomie,
+            gdy
+            elementy nie zajmują całej dostępnej przestrzeni na osi poziomej (ang. on the main-axis ), np.
+        </div>
+        <div class="div-title">
+            4.1 justify-content: flex-start;
+        </div>
+        <div class="flex-container41">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        4.2 justify-content: flex-end;
-    </div>
-    <div class="flex-container42">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            4.2 justify-content: flex-end;
+        </div>
+        <div class="flex-container42">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        4.3 justify-content: center;
-    </div>
-    <div class="flex-container43">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            4.3 justify-content: center;
+        </div>
+        <div class="flex-container43">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        4.4 justify-content: space-around;
-    </div>
-    <div class="flex-container44">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            4.4 justify-content: space-around;
+        </div>
+        <div class="flex-container44">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        4.5 justify-content: space-between;
-    </div>
-    <div class="flex-container45">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-    <div class="div-title">
-        4.6 justify-content: space-evenly;
-    </div>
-    <div class="flex-container46">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
+        <div class="div-title">
+            4.5 justify-content: space-between;
+        </div>
+        <div class="flex-container45">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+        <div class="div-title">
+            4.6 justify-content: space-evenly;
+        </div>
+        <div class="flex-container46">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
 
-    <div class="div-title">
-        5. Właściwość align-items służy do wyrównywania fleksowych elementów (ang. flex items ) w pionie, gdy elementy nie zajmują całej dostępnej przestrzeni na osi pionowej (ang. on the cross-axis ), np.
-    </div>
-    <div class="div-title">
-        5.1 align-items: stretch;
-    </div>
-    <div class="flex-container51">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <!-- <div class="color1">7</div>
+        <div class="div-title">
+            5. Właściwość align-items służy do wyrównywania fleksowych elementów (ang. flex items ) w pionie, gdy
+            elementy nie zajmują całej dostępnej przestrzeni na osi pionowej (ang. on the cross-axis ), np.
+        </div>
+        <div class="div-title">
+            5.1 align-items: stretch;
+        </div>
+        <div class="flex-container51">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <!-- <div class="color1">7</div>
         <div class="color2">8</div>
         <div class="color3">9</div> -->
-    </div>
+        </div>
 
+        <div class="div-title">
+            5.2 align-items: flex-start;
+        </div>
+        <div class="flex-container52">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <!-- <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div> -->
+        </div>
+
+        <div class="div-title">
+            5.3 align-items: flex-end;
+        </div>
+        <div class="flex-container53">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <!-- <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div> -->
+        </div>
+
+        <div class="div-title">
+            5.4 align-items: center;
+        </div>
+        <div class="flex-container54">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <!-- <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div> -->
+        </div>
+
+        <div class="div-title">
+            5.5 align-items: baseline;
+        </div>
+        <div class="flex-container55">
+            <div class="color1">
+                <font size="7">1</font>
+            </div>
+            <div class="color2">
+                <font size="1">2</font>
+            </div>
+            <div class="color3">
+                <font size="3">3</font>
+            </div>
+            <div class="color1">
+                <font size="6">4</font>
+            </div>
+            <div class="color2">
+                <font size="1">5</font>
+            </div>
+            <div class="color3">
+                <font size="6">6</font>
+            </div>
+            <!-- <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div> -->
+        </div>
+
+        <div class="div-title">
+            6. Właściwość align-content jest podobna do align-items, ale nie wyrównuje elementów, tylko służy do
+            wyrównywania wierszy >1 (ang. flex lines ), modyfikując zachowanie właściwości flex-wrap, np.
+        </div>
+
+        <div class="div-title">
+            6.1 align-content: strech;
+        </div>
+        <div class="flex-container61">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+
+        <div class="div-title">
+            6.2 align-content: flex-start;
+        </div>
+        <div class="flex-container62">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+
+        <div class="div-title">
+            6.3 align-content flex-end;
+        </div>
+        <div class="flex-container63">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+
+        <div class="div-title">
+            6.4 align-content: center;
+        </div>
+        <div class="flex-container64">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+
+        <div class="div-title">
+            6.5 align-content: space-around;
+        </div>
+        <div class="flex-container65">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+
+        <div class="div-title">
+            6.6 align-content: space-between;
+        </div>
+        <div class="flex-container66">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3">9</div>
+        </div>
+    </div>
     <div class="div-title">
-        5.2 align-items: flex-start;
-    </div>
-    <div class="flex-container52">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <!-- <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div> -->
-    </div>
+            Style - sześć właściwości, które można przypisać poszczególnym elementom (flex-item) wewnątrz tego samego fleksowego pojemnika wobec innych elementów!!!
+        </div>
+    <div>
+        <div class="div-title">
+            11.1 style="order: n;" [właściwość order określa kolejność wybranego elementu względem pozostałych elementów wewnątrz tego samego fleksowego pojemnika (ang. flex container ), gdzie wartością domyślną jest 0]
+        </div>
+        <div class="flex-container111">
+            <div class="color1" style="order: 1;">1</div>
+            <div class="color2" style="order: 3;">2</div>
+            <div class="color3" style="order: 5;">3</div>
+            <div class="color1" style="order: 7;">4</div>
+            <div class="color2" style="order: 9;">5</div>
+            <div class="color3" style="order: 8;">6</div>
+            <div class="color1" style="order: 6;">7</div>
+            <div class="color2" style="order: 4;">8</div>
+            <div class="color3" style="order: 2;">9</div>
+        </div>
+        <div class="div-title">
+            11.2 style="flex-grow: n;" [właściwość flex-grow określa jak bardzo fleksowy element (ang. flex item ) będzie się powiększał względem pozostałych, gdzie wartością domyślną jest 0]
+        </div>
+        <div class="flex-container112">
+            <div class="color1" style="flex-grow: 1;">1</div>
+            <div class="color2" style="flex-grow: 9;">2</div>
+            <div class="color3" style="flex-grow: 2;">3</div>
+            <div class="color1" style="flex-grow: 8;">4</div>
+            <div class="color2" style="flex-grow: 3;">5</div>
+            <div class="color3" style="flex-grow: 7;">6</div>
+            <div class="color1" style="flex-grow: 4;">7</div>
+            <div class="color2" style="flex-grow: 6;">8</div>
+            <div class="color3" style="flex-grow: 5;">9</div>
+        </div>
+        <div class="div-title">
+            11.3 style="flex-shrink: 0;" [Właściwość flex-shrink określa jak bardzo fleksowy element (ang. flex item) będzie się pomniejszał względem pozostałych, gdzie wartością domyślną jest 1]
+        </div>
+        <div class="flex-container113">
+            <div class="color1">1</div>
+            <div class="color2">2</div>
+            <div class="color3" style="flex-shrink: 0;">3</div>
+            <div class="color1">4</div>
+            <div class="color2">5</div>
+            <div class="color3" style="flex-shrink: 0;">6</div>
+            <div class="color1">7</div>
+            <div class="color2">8</div>
+            <div class="color3" style="flex-shrink: 0;">9</div>
+        </div>
 
-    <div class="div-title">
-        5.3 align-items: flex-end;
     </div>
-    <div class="flex-container53">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <!-- <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div> -->
-    </div>
-
-    <div class="div-title">
-        5.4 align-items: center;
-    </div>
-    <div class="flex-container54">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <!-- <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div> -->
-    </div>
-
-    <div class="div-title">
-        5.5 align-items: baseline;
-    </div>
-    <div class="flex-container55">
-        <div class="color1"><font size="7">1</font></div>
-        <div class="color2"><font size="1">2</font></div>
-        <div class="color3"><font size="3">3</font></div>
-        <div class="color1"><font size="6">4</font></div>
-        <div class="color2"><font size="1">5</font></div>
-        <div class="color3"><font size="6">6</font></div>
-        <!-- <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div> -->
-    </div>
-
-    <div class="div-title">
-        6. Właściwość align-content jest podobna do align-items, ale nie wyrównuje elementów, tylko służy do wyrównywania wierszy >1 (ang. flex lines ), modyfikując zachowanie właściwości flex-wrap, np.
-    </div>
-
-    <div class="div-title">
-        6.1 align-content: strech;
-    </div>
-    <div class="flex-container61">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-
-    <div class="div-title">
-        6.2 align-content: flex-start;
-    </div>
-    <div class="flex-container62">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-
-    <div class="div-title">
-        6.3 align-content flex-end;
-    </div>
-    <div class="flex-container63">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-
-    <div class="div-title">
-        6.4 align-content: center;
-    </div>
-    <div class="flex-container64">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-
-    <div class="div-title">
-        6.5 align-content: space-around;
-    </div>
-    <div class="flex-container65">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-
-    <div class="div-title">
-        6.6 align-content: space-between;
-    </div>
-    <div class="flex-container66">
-        <div class="color1">1</div>
-        <div class="color2">2</div>
-        <div class="color3">3</div>
-        <div class="color1">4</div>
-        <div class="color2">5</div>
-        <div class="color3">6</div>
-        <div class="color1">7</div>
-        <div class="color2">8</div>
-        <div class="color3">9</div>
-    </div>
-
-
+    <footer class="flex-container-footer">
+        <div class="color2">stopka1</div>
+        <div class="color3">stopka2</div>
+        <div class="color1">stopka3</div> 
+    </footer>
 </body>
 
 </html>
